@@ -1,0 +1,73 @@
+.sideMenu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    overflow: hidden;
+    width: 16%;
+    height: 98%;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    background: var(--bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40), 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.sideMenu .logo{
+    width: 120px;
+    height: 40px;
+}
+.sideMenu .nav{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+}
+.sideMenu .nav li a{
+    text-decoration: none;
+    color: var(---primary);
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    gap: 10px;
+    transition: 0.5s;
+    background-color: var(---bgcolor);
+    border-radius: 20px;
+    padding: 15px 10px;
+    width: 20%;
+    transition: 0.5s;
+}
+.sideMenu .nav li a:hover,
+.sideMenu .nav li a.active {
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40);
+    border-radius: 15px;
+    width: 180px;
+    height:50px;
+}
+.sideMenu.active{
+    width: 7%;
+    transition: 1s;
+    overflow: hidden;
+    align-items: center;
+}
+.sideMenu.active .nav .li a{
+    font-size: 1.8em;
+}
+.sideMenu.active .navName {
+    display: none;
+}
+.sideMenu.active .bi{
+    font-size: 22px;
+}
+.sideMenu.active .logo{
+    clip-path: inset(0 84px 0 0);
+    margin-left: 80px;
+}
+.sideMenu.active .nav li a:hover,
+.sideMenu.active .nav li a.active {
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40);
+    border-radius: 15px;
+    width: 43px;
+    height:55px;
+}

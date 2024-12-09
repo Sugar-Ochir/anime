@@ -1,0 +1,82 @@
+.reg_form{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.form{
+    margin-left: 120px;
+    margin-top: 20px;;
+}
+.rect{
+    width: 500px;
+    height: 400px;
+    position: fixed; 
+    top: 20%; 
+    left: 30%; 
+    background-color: var(---bgcolor);
+    border-radius: 20px;
+}
+.burtguuleh{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #BDBDBD;
+    text-align: center;
+}
+.user_name{
+    font-size: 15px;
+    color: #BDBDBD; 
+    margin-bottom: 10px;
+}
+.user_name_button input{
+    font-size: 15px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 15px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+.email_button input{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+.pass{
+    font-size: 15px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+.pass_button input{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.user_in{
+    background-color: #0C1829;
+    width: 260px;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #A4A7AB;  
+    padding-left: 20px;
+}
+.burtgeh4{
+    margin-top: 10px;
+    background-color: #0C1829;
+    width: 200px;
+    border-radius: 10px;
+    height: 45px;
+    color: #BDBDBD;
+    cursor:grab;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.40), -5px -5px 10px 0px rgba(255, 255, 255, 0.40);
+    border:none;    
+    padding-top: 12px;
+    text-align: center;
+    margin-left: 150px;
+}

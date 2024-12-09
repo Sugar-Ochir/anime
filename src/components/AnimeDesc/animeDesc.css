@@ -1,0 +1,124 @@
+
+.animeDesc.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.8s;
+}
+.animeDesc.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s;
+}
+.descrec1{
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    width: 900px;
+    height: 500px;
+    background-color: var(---bgcolor);
+    border-radius: 20px;
+    box-shadow: -5px -5px 40px 0px rgba(0, 0, 0, 0.3), 5px 5px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.animedesc1 img{
+    top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: fixed;
+    width: 900px;
+    height: 350px;
+    transition: 1s;
+}
+.gradient1{
+    position: absolute;
+    top: 200px;
+    height:300px;
+    width: 900px;
+    background: linear-gradient(180deg, rgba(12, 24, 41, 0.00) 0.1%, rgba(12, 24, 41, 0.92) 22.45%, rgba(12, 24, 41, 0.92) 22.46%, rgba(12, 24, 41, 0.92) 22.47%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bi-play-circle-fill{
+    position:relative;
+    top: 100px;
+    left: 20px;
+    font-size: 35px;
+    color: #A4A7AB;
+}
+.ellipseheart{
+    position:absolute;
+    top:105px;
+    left:70px;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #A4A7AB;
+    text-align: center;
+}
+.bi-heart1{
+    position:relative;
+    top: 5px;
+    left: 0;
+    color: #A4A7AB;
+    font-size: 20px;
+}
+.bi-star-fill{
+    position:relative;
+    top: 140px;
+    left: -20px;
+    color: #FFB800;
+    font-size: 20px;
+}
+p20{
+    position:relative;
+    top: 140px;
+    left: -15px;
+    color: #FFB800;
+    font-size: 14px;
+}
+p21{
+    position:relative;
+    top: 145px;
+    left: 0px;
+    color: #A4A7AB;
+    font-size: 20px;
+}
+p22{
+    color: #A4A7AB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.description1{
+    text-align: justify;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    width: 600px;
+}
+.animeabout1{
+    position: relative;
+    top: 60px;
+    left: 700px;
+    width: 600px;
+    text-align: justify;
+}
+.animeabout1 pre{
+    color: #A4A7AB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ellipseheart.clicked {
+    border: 2px solid red;
+    background-color: red;
+  }
+  
+  .bi-heart1.clicked {
+    color: #fff;
+    
+  }

@@ -1,0 +1,106 @@
+.Dans{
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 180px;
+    margin-bottom:70px;
+    background-color: var(---bgcolor);
+    border-radius: 20px; 
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+}
+.divide1, .divide2, .divide3, .divide4 {
+    height: 1px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color:#A4A7AB;
+}
+.bi-arrow-left{
+    color: #A4A7AB;
+    margin-left: 10px;
+    font-size: 24px;;
+}
+.first, .second, .third, .fourth {
+    display: flex;
+}
+.dans_info{
+    margin-top:20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color:#A4A7AB;
+    text-align: center;
+}
+.bank_label{
+    margin-left: 60px;
+    margin-right: 135px;
+    font-size: 18px;
+    color:rgba(189, 189, 189, 0.50);
+    text-align: center;
+}
+.dansno_label{
+    margin-left: 60px;
+    margin-right: 150px;
+    font-size: 18px;
+    color:rgba(189, 189, 189, 0.50);
+    text-align: center;
+    margin-top: 20px;
+}
+.ezemshigch_label{
+    margin-left: 60px;
+    margin-right: 150px;
+    font-size: 18px;
+    color:rgba(189, 189, 189, 0.50);
+    text-align: center;
+    margin-top: 20px;
+}
+.utga_label{
+    margin-left: 60px;
+    margin-right: 140px;
+    font-size: 18px;
+    color:rgba(189, 189, 189, 0.50);
+    text-align: center;
+    margin-top: 20px;
+}
+.bank_label_name{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+.dansno_label_name{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+.ezemshigch_label_name{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+.utga_label_name{
+    font-size: 18px;
+    color: #FF3A3A;
+    text-align: center;
+    margin-top: 20px;
+}
+.divide1{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+.divide2{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+.divide3{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+.divide4{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}

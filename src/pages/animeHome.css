@@ -1,0 +1,73 @@
+.aniemHome{
+    width: 90%;
+    
+}
+.animeHome.active{
+    width:100%;
+}
+.kakashi{
+    width: 1060px;
+    height: 350px;
+    border-radius: 20px;    
+    object-fit: fill;
+    margin: 90px 60px 0 40px;
+    transition: 1s;
+   
+}
+.animeHome.active .kakashi{
+    width: 1180px;
+    transition: 1s;
+}
+.type {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+
+.type p{
+    color: #A4A7AB;
+    font-size: 22px;
+}
+.type a{
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+.all{
+    display: flex;
+    color: red;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.anime1{
+    display: flex;
+    margin-left:30px;
+    list-style-type: none;
+    margin-top: 20px;
+    
+
+}
+.anime1 li img{
+    width: 170px;
+    height: 90px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.anime1 li{
+    transition: .8s;
+}
+.anime1 li:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .8s ease-in-out;
+}
+.animeHome.active .anime1 li img{
+    width: 190px;
+    transition: 1s;
+}

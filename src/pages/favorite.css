@@ -1,0 +1,32 @@
+.favoriteAnime img{
+    object-fit:cover;
+    width: 190px;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+.favoriteAnime{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.FavoriteBanner{
+    position: absolute;
+    margin-right: 10px;
+    left: 275px;
+    width: 79.2%;
+    border-radius: 20px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40), 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+.FavoriteBanner.active{
+    position: absolute;
+    left: 150px;
+    width: 88%;
+    transition: 1s;
+}
+.FavoriteBanner.active .favoriteAnime img{
+    width: 210px;
+
+}

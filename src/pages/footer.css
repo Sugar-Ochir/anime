@@ -1,0 +1,100 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+.footer1.active .footerdivider{
+    width: 1120px;
+    transition: 1s; 
+}
+.footer1.active .socialfooter{
+    transition: 1s;
+    margin-left: 550px;
+}
+.footer1.active .playstore{
+    margin-left: 450px;
+    transition: 1s; 
+}
+.footer1.active .copyright{
+    margin-left: 470px;
+    transition: 1s; 
+}
+.footerdivider{
+    margin-left: 60px;
+    margin-top: 330px;
+    margin-bottom: 40px;
+    height: 0.8px;
+    width: 990px;
+    background-color: #A4A7AB;
+    transition: 1s; 
+}
+.store{
+    margin-bottom: 20px;
+    display: flex;
+}
+.playstore{
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    margin-left: 400px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 7.5px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+.playstore a{
+    color: #A4A7AB;
+
+}
+.bi-google-play{
+    color: #fff;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.bi-apple{
+    color: #fff;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.appstore{
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    margin-left: 40px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 7.5px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+.appstore a{
+    color:#A4A7AB;
+}
+.bi-twitter{
+    font-size: 30px;
+    color:#fff;
+}
+.bi-youtube{
+    font-size: 30px;
+    color:#fff;
+    margin-left: 20px;
+}
+.bi-facebook{
+    font-size: 30px;
+    color:#fff;
+    margin-left: 20px;
+}
+.socialfooter{
+    margin-top: 50px;
+    margin-left: 500px;
+    transition: 1s; 
+}
+.copyright{
+    margin-top: 30px;
+    color:#A4A7AB;
+    margin-left: 420px;
+    font-size: 14px;
+    margin-bottom: 100px;
+    transition: 1s; 
+}

@@ -1,0 +1,16 @@
+.DansInfoBanner{
+    position: absolute;
+    margin-right: 10px;
+    left: 275px;
+    width: 79.2%;
+    border-radius: 20px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40), 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+.DansInfoBanner.active{
+    position: absolute;
+    left: 150px;
+    width: 88%;
+    transition: 1s;
+}

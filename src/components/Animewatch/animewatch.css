@@ -1,0 +1,146 @@
+header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #040C16;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #040C16;
+}
+.bi-arrow-left1{
+    position: fixed;
+    top: 5px;
+    font-size: 30px;
+}
+.aniwatchrec1{
+    position: fixed;
+    top: 0; 
+    right:0;
+    height: 100%;
+    width: 31%;
+    background-color: var(---bgcolor);
+    z-index: 1;
+}
+.animeabout{
+    position: absolute;
+    top: 0;
+    left: 390px;
+    height: 100%;
+    width: 50px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px 4px 10px 0px rgba(106, 106, 106, 0.40);
+}
+.bi-info-circle{
+    position: fixed;
+    font-size: 25px;
+    color: #D9D9D9;
+    top: 350px;
+    right: 15px;
+
+}
+.aboutrec1{
+    height: 200px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.aboutrec1 p{
+    color: #707070;
+text-align: justify;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.bi-list-ul{
+    position: fixed;
+    font-size: 25px;
+    color: #D9D9D9;
+    top: 300px;
+    right: 15px;
+}
+.activeline1{
+    position: fixed;
+    top: 295px;
+    right: 1px;
+    height: 40px;
+    width: 1px;
+    background-color: #F00;
+}
+.activeline2{
+    position: fixed;
+    top: 345px;
+    right: 1px;
+    height: 40px;
+    width: 1px;
+    background-color: #F00;
+}
+.aniwatchimg1 img{
+    position: fixed;
+    margin: 20px;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+.eps{
+    position: relative;
+    top: 235px;
+    left: 30px;
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.animedate{
+    position: relative;
+    top: 235px;
+    left: 210px;
+    color: #A4A7AB;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.epsdate{
+    display: flex;
+}
+.aniwatchdivider{
+    margin-top: 250px;
+    margin-left: 20px;
+    width: 350px;
+    height: 0.5px;
+    background-color: #FFF;
+}
+.epbutton1 ul li{
+    width: 60px;
+    height: 40px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40), 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Inter;
+}
+.epbutton1 ul{
+    display: flex;
+}
+.epbutton1 ul li.ep1{
+    background-color: #f00;
+}
+a{
+    text-decoration: none;
+}

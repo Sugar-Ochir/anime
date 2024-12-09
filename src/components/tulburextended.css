@@ -1,0 +1,279 @@
+.tulbur{
+    display: flex;
+}
+.tulbur.active .rectangle1 {
+    width: 200px;
+    padding-left: 30px;
+    transition: 1s;
+} 
+.tulbur.active .rectangle2 {
+    width: 200px;
+    padding-left: 30px;
+    transition: 1s;
+} 
+.tulbur.active .rectangle3 {
+    width: 200px;
+    padding-left: 30px;
+    transition: 1s;
+} 
+.tulbur.active .rectangle4 {
+    width: 200px;
+    padding-left: 30px;
+    transition: 1s;
+} 
+.tulbur.active .rectangle5 {
+    width: 200px;
+    padding-left: 30px;
+    transition: 1s;
+} 
+.rectangle1 
+{
+    margin-top: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: #0C1829;
+    width: 180px;
+    height: 450px;
+    margin-bottom: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    transition: 1s;
+
+}
+.rectangle1 .divider
+{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 140px;
+    margin-right:20px;
+    background: #fff;
+}
+.detail li{
+    font-size: 14px;
+    list-style-type: none;
+    margin-top:15px;
+}
+.detail{
+    margin-top:40px;
+}
+.rectangle1 .une img
+{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 80px;
+    width: 35px;
+    height: 35px;
+}
+h1{
+    font-size: 35px;
+}
+h4
+{
+    font-size: 20px;
+    color: #BDBDBD;
+    padding-top: 20px;
+}
+.rectangle1 .button1
+{
+    font-size: 15px;
+    width: 140px;
+    border-radius: 10px;
+    height: 35px;
+    color: #FF3A3A;
+    cursor:grab;
+    background: #0C1829;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    border: none;
+    margin-top: 90px;
+
+}
+
+
+
+/*rectangle2*/
+.rectangle2 
+{
+    margin-top: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: #0C1829;
+    width: 180px;
+    height: 450px;
+    margin-bottom: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    transition: 1s;
+}
+.rectangle2 .divider
+{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 150px;
+    margin-right: 20px;
+    background: #fff;
+}
+.rectangle2 .une img
+{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+}
+.rectangle2 .button2
+{
+    font-size: 15px;
+    width: 140px;
+    border-radius: 10px;
+    height: 35px;
+    color: #FF3A3A;
+    cursor:grab;
+    background: #0C1829;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    border: none;
+    margin-top: 90px;
+   
+}
+
+/*rectangle3*/
+.rectangle3
+{
+    margin-top: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: #0C1829;
+    width: 180px;
+    height: 450px;
+    margin-bottom: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    transition: 1s;
+}
+.rectangle3 .divider
+{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 150px;
+    margin-right: 20px;
+    background: #fff;
+}
+.rectangle3 .une img
+{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+}
+.rectangle3 .button3
+{
+    font-size: 15px;
+    width: 140px;
+    border-radius: 10px;
+    height: 35px;
+    color: #FF3A3A;
+    cursor:grab;
+    background: #0C1829;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    border: none;
+    margin-top: 90px;
+}
+.rectangle4 
+{
+    margin-top: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: #0C1829;
+    width: 180px;
+    height: 450px;
+    margin-bottom: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    transition: 1s;
+}
+.rectangle4 .divider
+{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 150px;
+    margin-right: 20px;
+    background: #fff;
+}
+.rectangle4 .une img
+{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+}
+.rectangle4 .button4
+{
+    font-size: 15px;
+    width: 140px;
+    border-radius: 10px;
+    height: 35px;
+    color: #FF3A3A;
+    cursor:grab;
+    background: #0C1829;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    border: none;
+    margin-top: 90px;
+}
+.rectangle5 
+{
+    margin-top: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: #0C1829;
+    width: 180px;
+    height: 450px;
+    margin-bottom: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    transition: 1s;
+}
+.rectangle5 .divider
+{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 150px;
+    margin-right: 20px;
+    background: #fff;
+}
+.rectangle5 .une img
+{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+}
+.rectangle5 .button5
+{
+    font-size: 15px;
+    width: 140px;
+    border-radius: 10px;
+    height: 35px;
+    color: #FF3A3A;
+    cursor:grab;
+    background: #0C1829;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25), -5px -5px 15px 0px rgba(106, 106, 106, 0.40);
+    border: none;
+    margin-top: 90px;
+}

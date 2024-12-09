@@ -1,0 +1,56 @@
+.categoriesBanner{
+    position: absolute;
+    margin-right: 10px;
+    left: 275px;
+    width: 79.2%;
+    border-radius: 20px;
+    background-color: var(---bgcolor);
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40), 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+.categoriesBanner.active{
+    position: absolute;
+    left: 150px;
+    width: 88%;
+    transition: 1s;
+}
+.categoriesBanner.active .filters{
+    gap:30px;
+    transition: 1s;
+}
+.filters{
+
+    display: flex;
+    flex: wrap;
+    list-style: none;
+    gap: 10px;
+    margin: 100px 0 30px 30px;
+    padding: 0;
+    transition: 1s;
+}
+.filters li{
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 20px;
+    transition: 0.3px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.filters li:hover,
+.filters li.active {
+    box-shadow: -5px -5px 10px 0px rgba(106, 106, 106, 0.40);
+}
+.turul{
+    z-index: 1;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    color: #fff;
+    font-size: 24px;
+    color: #A4A7AB;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 40px;
+}
